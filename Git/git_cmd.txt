@@ -1,0 +1,58 @@
+*** Git Command ***
+
+# Initial git
+	CMD: git init
+
+# Show git status
+	CMD: git status
+
+# Add new file to git
+	CMD:git add new.txt
+
+# Commite all file
+	CMD: git commit -m "Adding new file"
+
+# Add all .txt file to git
+	CMD: git add -m '*.txt'
+
+# Show git log
+	CMD: git log
+
+# Git origin add
+	CMD: git remote add origin https://github.com/.....
+
+# Push all file to git origin
+	CMD: git push -u origin master
+
+# Pull all files from git origin
+	CMD: git pull master
+
+# Adding a specific file to git
+	CMD: git add foldername/filename.php
+
+# Delete all text files from git
+	CMD: git rm '*.txt'
+	
+# Remove deleted folder from the git history [-r means recursively]
+	CMD: git rm -r folder_name 
+
+# Add all file to git
+	CMD: git add -A  
+
+# Push a specific folder to git repo
+	CMD: git add public/assets
+	CMD: git commit -m "assets"
+	CMD: git push
+	
+# First git commit to a new repository
+	CMD: init
+	CMD: git add -A
+	CMD: git commit -m "first commit"
+	CMD: git remote add origin https://github.com/CodingBucket/C-Programming.git
+	CMD: git push -u origin master
+	
+# Git clone
+	CMD: git clone https://github.com/CodingBucket/C-Programming.git
+	
+# Remove added file or unstage file
+	CMD: git reset file_name
