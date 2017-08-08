@@ -1,58 +1,51 @@
-*** Git Command ***
+*** Git Commands ***
 
-# Initial git
-	CMD: git init
-
-# Show git status
-	CMD: git status
-
-# Add new file to git
-	CMD:git add new.txt
-
-# Commite all file
-	CMD: git commit -m "Adding new file"
-
-# Add all .txt file to git
-	CMD: git add -m '*.txt'
-
-# Show git log
-	CMD: git log
-
-# Git origin add
-	CMD: git remote add origin https://github.com/.....
-
-# Push all file to git origin
-	CMD: git push -u origin master
-
-# Pull all files from git origin
-	CMD: git pull master
-
-# Adding a specific file to git
-	CMD: git add foldername/filename.php
-
-# Delete all text files from git
-	CMD: git rm '*.txt'
+$ git init                                         # Initial git
 	
-# Remove deleted folder from the git history [-r means recursively]
-	CMD: git rm -r folder_name 
+$ git status                                       # Show git status
 
-# Add all file to git
-	CMD: git add -A  
+$ git add new.txt                                  # Add new file to git
 
-# Push a specific folder to git repo
-	CMD: git add public/assets
-	CMD: git commit -m "assets"
-	CMD: git push
+$ git commit -m "Adding new file"                  # Commite all file
+
+$ git add -m '*.txt'                               # Add all .txt file to git
+
+$ git log                                          # Show git log
+
+$ git remote add origin {origin_url}               # Git origin add
+
+$ git push -u origin master                        # Push all file to git origin
+
+$ git pull master                                  # Pull all files from git origin
+
+$ git add foldername/filename.php                  # Adding a specific file to git
+
+$ git rm '*.txt'                                   # Delete all text files from git
 	
-# First git commit to a new repository
-	CMD: init
-	CMD: git add -A
-	CMD: git commit -m "first commit"
-	CMD: git remote add origin https://github.com/CodingBucket/C-Programming.git
-	CMD: git push -u origin master
+$ git rm -r folder_name                            # Remove deleted folder from the git history [-r means recursively]
+
+$ git add -A                                       # Add all file to git
+
+$ git add public/assets                            # Push a specific folder to git repo
+$ git commit -m "assets"
+$ git push
 	
-# Git clone
-	CMD: git clone https://github.com/CodingBucket/C-Programming.git
+$ init                                             # First git commit to a new repository
+$ git add -A
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/CodingBucket/C-Programming.git
+$ git push -u origin master
 	
-# Remove added file or unstage file
-	CMD: git reset file_name
+$ git clone {git_url}                              # Git clone
+	
+$ git reset file_name                              # Remove added file or unstage file
+
+$ git branch -a                                    # Show all branches 
+
+$ git branch -r                                    # Show only remote branches 
+
+$ git checkout -b newBranchName                    # Create new branch
+
+$ git checkout                                     # Change working branch
+
+$ git rebase branchName   
