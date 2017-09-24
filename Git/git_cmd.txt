@@ -49,3 +49,7 @@ $ git checkout -b newBranchName                    # Create new branch
 $ git checkout                                     # Change working branch
 
 $ git rebase branchName   
+
+$ git branch -d branch_name                        # Delete local branch
+
+
