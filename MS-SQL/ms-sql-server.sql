@@ -1,6 +1,6 @@
 
 ==================================================================
-// Create SQL statements to actually drop those FK relations 
+-- Create SQL statements to actually drop those FK relations 
 
 SELECT 
     'ALTER TABLE [' +  OBJECT_SCHEMA_NAME(parent_object_id) +
