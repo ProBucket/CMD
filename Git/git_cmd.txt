@@ -52,4 +52,6 @@ $ git rebase branchName
 
 $ git branch -d branch_name                        # Delete local branch
 
+$ git push origin --delete 1.0.84                  # Delete branch from origin
+
 
